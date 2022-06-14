@@ -5,15 +5,15 @@ provider "aws" {
   secret_key = "u/2HfWUEqRM0I0JXFTkTqZf+8cbBXH5E+4ZWuGdu"
 }
 
-resource "aws_s3_bucket" "buckets3test" {
-  bucket = "buckets3test"
+resource "aws_s3_bucket" "1234bucketanju" {
+  bucket = "1234bucketanju"
   tags = {
     Name        = "Mys3buckets"
     Environment = "Testcase"
   }
 }
-resource "aws_s3_bucket_public_access_block" "buckets3test" {
-  bucket = aws_s3_bucket.buckets3test.id
+resource "aws_s3_bucket_public_access_block" "1234bucketanju" {
+  bucket = aws_s3_bucket.1234bucketanju.id
   block_public_acls   = true
 
 }
