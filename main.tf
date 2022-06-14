@@ -1,8 +1,8 @@
 # Configure the AWS Provider
 provider "aws" {
   region     = "us-west-2"
-  access_key = "AKIAZMMPCYTYYSL2GC4F"
-  secret_key = "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"
+  access_key = "AKIAZMMPCYTYYXQKHD7N"
+  secret_key = "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"
 }
 
 resource "aws_s3_bucket" "anjusentinels3" {
