@@ -8,8 +8,8 @@ provider "aws" {
 resource "aws_s3_bucket" "buckets31" {
   bucket = "buckets31"
   tags = {
-    Name        = "My s3bucketsent"
-    Environment = "Trial"
+    Name        = "Mys3buckets"
+    Environment = "Testcase"
   }
 }
 resource "aws_s3_bucket_public_access_block" "buckets31" {
