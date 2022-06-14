@@ -14,6 +14,6 @@ resource "aws_s3_bucket" "anjusentinels3" {
 }
 resource "aws_s3_bucket_public_access_block" "anjusentinels3" {
   bucket = aws_s3_bucket.anjusentinels3.id
-  block_public_acls   = false
+  block_public_acls   = true
 
 }
