@@ -12,7 +12,7 @@ resource "aws_s3_bucket" "c1234bucketanju" {
 }
 resource "aws_s3_bucket_public_access_block" "c1234bucketanju" {
   bucket = aws_s3_bucket.c1234bucketanju.id
-  block_public_acls   = false
+  block_public_acls   = true
 
 }
 
